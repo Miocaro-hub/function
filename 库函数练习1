@@ -19,10 +19,10 @@ int main()
 	return 0;
 }
 
-//funtion - º¯Êı  char* - Ö¸ÕëÀàĞÍ
+//funtion - å‡½æ•°  char* - æŒ‡é’ˆç±»å‹
 
 //strcpy  char*strcpy(char*destination,const char*source);
-//Ò»°ãÖ¸ÕëÔÚº¯ÊıºóÃæ£¬Copies the C string pointed by source into the array pointed by destination,including the terminating null character.
+//ä¸€èˆ¬æŒ‡é’ˆåœ¨å‡½æ•°åé¢ï¼ŒCopies the C string pointed by source into the array pointed by destination,including the terminating null character.
 
 //destination:Pointer to the destination array where the content is to be copied.
 //sourec: C string to be copied.
@@ -33,8 +33,8 @@ int main()
 
 int main()
 {
-	//strlen - string length - Çó×Ö·û´®³¤¶È
-	//strcpy - string copy - ×Ö·û´®¿½±´
+	//strlen - string length - æ±‚å­—ç¬¦ä¸²é•¿åº¦
+	//strcpy - string copy - å­—ç¬¦ä¸²æ‹·è´
 	char arr1[] = "bit1";
 	char arr2[20] = "12345";
 	strcpy(arr2, arr1);
